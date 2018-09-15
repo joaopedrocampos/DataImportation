@@ -1,0 +1,270 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* data_importation
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 11.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-08-31 23:30+0000\n"
+"PO-Revision-Date: 2018-08-31 23:30+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: data_importation
+#: model:ir.ui.view,arch_db:data_importation.import_sale_orders_wizard
+msgid "Cancel"
+msgstr "Cancelar"
+
+#. module: data_importation
+#: model:ir.ui.view,arch_db:data_importation.import_sale_orders_error_wizard
+msgid "Close"
+msgstr "Fechar"
+
+#. module: data_importation
+#: model:ir.model.fields,field_description:data_importation.field_import_sale_orders_create_uid
+#: model:ir.model.fields,field_description:data_importation.field_import_sale_orders_error_create_uid
+msgid "Created by"
+msgstr "Criado por"
+
+#. module: data_importation
+#: model:ir.model.fields,field_description:data_importation.field_import_sale_orders_create_date
+#: model:ir.model.fields,field_description:data_importation.field_import_sale_orders_error_create_date
+msgid "Created on"
+msgstr "Criado em"
+
+#. module: data_importation
+#: model:ir.ui.menu,name:data_importation.data_importation_menu_root
+msgid "Data Importation"
+msgstr "Importação de Dados"
+
+#. module: data_importation
+#: model:ir.model.fields,field_description:data_importation.field_import_sale_orders_display_name
+#: model:ir.model.fields,field_description:data_importation.field_import_sale_orders_error_display_name
+msgid "Display Name"
+msgstr "Nome exibido"
+
+#. module: data_importation
+#: code:addons/data_importation/wizard/import_sale_orders.py:116
+#, python-format
+msgid "Error on line %s: Customer with the CNPJ/CPF %s is not registered."
+msgstr "Erro na linha %s: Cliente com o CNPJ/CPF %s não está cadastrado."
+
+#. module: data_importation
+#: code:addons/data_importation/wizard/import_sale_orders.py:25
+#, python-format
+msgid "Error on line %s: Field CNPJ/CPF is empty."
+msgstr "Erro na linha %s: Campo CNPJ/CPF está vazio."
+
+#. module: data_importation
+#: code:addons/data_importation/wizard/import_sale_orders.py:28
+#, python-format
+msgid "Error on line %s: Field Data is empty."
+msgstr "Erro na linha %s: Campo Data está vazio."
+
+#. module: data_importation
+#: code:addons/data_importation/wizard/import_sale_orders.py:52
+#, python-format
+msgid "Error on line %s: Field Medidas is empty."
+msgstr "Erro na linha %s: Campo Medidas está vazio."
+
+#. module: data_importation
+#: code:addons/data_importation/wizard/import_sale_orders.py:54
+#, python-format
+msgid "Error on line %s: Field Observacoes is empty."
+msgstr "Erro na linha %s: Campo Observacoes está vazio."
+
+#. module: data_importation
+#: code:addons/data_importation/wizard/import_sale_orders.py:44
+#, python-format
+msgid "Error on line %s: Field Preco Unitario is empty."
+msgstr "Erro na linha %s: Campo Preco Unitario está vazio."
+
+#. module: data_importation
+#: code:addons/data_importation/wizard/import_sale_orders.py:49
+#, python-format
+msgid "Error on line %s: Field Preco Unitario is not an Float."
+msgstr "Erro na linha %s: Campo Preco Unitario não é do tipo Float."
+
+#. module: data_importation
+#: code:addons/data_importation/wizard/import_sale_orders.py:33
+#, python-format
+msgid "Error on line %s: Field Produto is empty."
+msgstr "Erro na linha %s: Campo Produto está vazio."
+
+#. module: data_importation
+#: code:addons/data_importation/wizard/import_sale_orders.py:36
+#, python-format
+msgid "Error on line %s: Field Quantidade is empty."
+msgstr "Erro na linha %s: Campo Quantidade está vazio."
+
+#. module: data_importation
+#: code:addons/data_importation/wizard/import_sale_orders.py:41
+#, python-format
+msgid "Error on line %s: Field Quantidade is not an Integer."
+msgstr "Erro na linha %s: Campo Quantidade não é do tipo Inteiro."
+
+#. module: data_importation
+#: code:addons/data_importation/wizard/import_sale_orders.py:122
+#, python-format
+msgid "Error on line %s: Product not registered."
+msgstr "Erro na linha %s: Produto não está cadastrado."
+
+#. module: data_importation
+#: code:addons/data_importation/wizard/import_sale_orders.py:125
+#, python-format
+msgid "Error on line %s: There are more than one Product with the same name."
+msgstr "Erro na linha %s: Há mais de um Produto com o mesmo nome."
+
+#. module: data_importation
+#: model:ir.model.fields,field_description:data_importation.field_import_sale_orders_error_errors
+msgid "Errors"
+msgstr "Erros"
+
+#. module: data_importation
+#: code:addons/data_importation/wizard/import_sale_orders.py:62
+#, python-format
+msgid "Field Cliente not found!"
+msgstr "Campo Cliente não foi encontrado!"
+
+#. module: data_importation
+#: code:addons/data_importation/wizard/import_sale_orders.py:64
+#, python-format
+msgid "Field Data not found!"
+msgstr "Campo Data não foi encontrado!"
+
+#. module: data_importation
+#: code:addons/data_importation/wizard/import_sale_orders.py:72
+#, python-format
+msgid "Field Medidas not found!"
+msgstr "Campo Medidas não foi encontrado!"
+
+#. module: data_importation
+#: code:addons/data_importation/wizard/import_sale_orders.py:74
+#, python-format
+msgid "Field Observacoes not found!"
+msgstr "Campo Observacoes não foi encontrado!"
+
+#. module: data_importation
+#: code:addons/data_importation/wizard/import_sale_orders.py:70
+#, python-format
+msgid "Field Preco Unitario not found!"
+msgstr "Campo Preco Unitario não foi encontrado!"
+
+#. module: data_importation
+#: code:addons/data_importation/wizard/import_sale_orders.py:66
+#, python-format
+msgid "Field Produto not found!"
+msgstr "Campo Produto não foi encontrado!"
+
+#. module: data_importation
+#: code:addons/data_importation/wizard/import_sale_orders.py:68
+#, python-format
+msgid "Field Quantidade not found!"
+msgstr "Campo Quantidade não foi encontrado!"
+
+#. module: data_importation
+#: model:ir.model.fields,field_description:data_importation.field_import_sale_orders_error_id
+#: model:ir.model.fields,field_description:data_importation.field_import_sale_orders_id
+msgid "ID"
+msgstr "ID"
+
+#. module: data_importation
+#: model:ir.ui.view,arch_db:data_importation.import_sale_orders_wizard
+msgid "Import"
+msgstr "Importar"
+
+#. module: data_importation
+#: model:ir.actions.act_window,name:data_importation.action_import_sale_orders
+#: model:ir.ui.view,arch_db:data_importation.import_sale_orders_wizard
+msgid "Import Sale Orders"
+msgstr "Importar Pedidos de Venda"
+
+#. module: data_importation
+#: model:ir.ui.view,arch_db:data_importation.import_sale_orders_error_wizard
+msgid "Import Sale Orders Error"
+msgstr "Erro de Importação de Pedidos de Venda"
+
+#. module: data_importation
+#: model:ir.model.fields,field_description:data_importation.field_import_sale_orders_file
+msgid "Importation File"
+msgstr "Arquivo de Importação"
+
+#. module: data_importation
+#: model:ir.model.fields,field_description:data_importation.field_import_sale_orders_type_importation
+msgid "Importation Type"
+msgstr "Tipo de Importação"
+
+#. module: data_importation
+#: code:addons/data_importation/wizard/import_sale_orders.py:82
+#, python-format
+msgid "Invalid date!"
+msgstr "Data inválida!"
+
+#. module: data_importation
+#: model:ir.model.fields,field_description:data_importation.field_import_sale_orders___last_update
+#: model:ir.model.fields,field_description:data_importation.field_import_sale_orders_error___last_update
+msgid "Last Modified on"
+msgstr "Última modificação em"
+
+#. module: data_importation
+#: model:ir.model.fields,field_description:data_importation.field_import_sale_orders_error_write_uid
+#: model:ir.model.fields,field_description:data_importation.field_import_sale_orders_write_uid
+msgid "Last Updated by"
+msgstr "Última atualização por"
+
+#. module: data_importation
+#: model:ir.model.fields,field_description:data_importation.field_import_sale_orders_error_write_date
+#: model:ir.model.fields,field_description:data_importation.field_import_sale_orders_write_date
+msgid "Last Updated on"
+msgstr "Última atualização em"
+
+#. module: data_importation
+#: code:addons/data_importation/wizard/import_sale_orders.py:103
+#, python-format
+msgid "Problem with identifying line:\n"
+"\n"
+""
+msgstr "Problema em identificar a linha:\n"
+"\n"
+""
+
+#. module: data_importation
+#: selection:import.sale.orders,type_importation:0
+msgid "Sale Orders"
+msgstr "Pedidos de Venda"
+
+#. module: data_importation
+#: model:ir.ui.menu,name:data_importation.import_sale_orders_menu
+msgid "Sale Orders Importation"
+msgstr "Importação de Pedidos de Venda"
+
+#. module: data_importation
+#: model:ir.ui.view,arch_db:data_importation.import_sale_orders_wizard
+msgid "Select a type of importation and the file, to import."
+msgstr "Selecione um tipo de importação e o arquivo CSV, para importar."
+
+#. module: data_importation
+#: model:ir.ui.view,arch_db:data_importation.import_sale_orders_wizard
+msgid "The file must be, CSV extension and delimiter by semicolon ';'"
+msgstr "O arquivo deve ser, em extensão CSV e delimitado por ponto e vírgula ';'."
+
+#. module: data_importation
+#: model:ir.ui.view,arch_db:data_importation.import_sale_orders_error_wizard
+msgid "The following records could not be loaded"
+msgstr "Os seguintes registros não puderam ser carregados"
+
+#. module: data_importation
+#: model:ir.model,name:data_importation.model_import_sale_orders
+msgid "import.sale.orders"
+msgstr "import.sale.orders"
+
+#. module: data_importation
+#: model:ir.model,name:data_importation.model_import_sale_orders_error
+msgid "import.sale.orders.error"
+msgstr "import.sale.orders.error"
+

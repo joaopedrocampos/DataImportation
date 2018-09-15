@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <data>
+
+        <record id="import_sale_orders_error_wizard" model="ir.ui.view">
+            <field name="name">Import Sale Orders Error</field>
+            <field name="model">import.sale.orders.error</field>
+            <field name="priority">1</field>
+            <field name="arch" type="xml">
+                <form string="Import Sale Orders Error">
+                    <p>The following records could not be loaded</p>
+                    <group>
+                        <field name="errors" nolabel="1"/>
+                    </group>
+                    <footer>
+                        <button string="Close" class="btn-default" special="cancel"/>
+                    </footer>
+                </form>
+            </field>
+        </record>
+
+        <record id="import_sale_orders_wizard" model="ir.ui.view">
+            <field name="name">Import Sale Orders</field>
+            <field name="model">import.sale.orders</field>
+            <field name="priority">1</field>
+            <field name="arch" type="xml">
+                <form string="Import Sale Orders">
+                    <p>Select a type of importation and the file, to import.</p>
+                    <p>The file must be, CSV extension and delimiter by semicolon ';'</p>
+                    <group colspan="4" col="4">
+                        <field name="type_importation"/>
+                        <field name="file"/>
+                    </group>
+                    <footer>
+                        <button name="import_file" string="Import" type="object" class="btn-primary" />
+                        <button string="Cancel" class="btn-default" special="cancel"/>
+                    </footer>
+                </form>
+            </field>
+        </record>
+
+        <record id="action_import_sale_orders" model="ir.actions.act_window">
+            <field name="name">Import Sale Orders</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">import.sale.orders</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">form</field>
+            <field name="target">new</field>
+            <field name="view_id" ref="import_sale_orders_wizard"/>
+        </record>
+
+        <menuitem id="import_sale_orders_menu" name="Sale Orders Importation" parent="data_importation_menu_root" action="action_import_sale_orders" sequence="10"/>
+    </data>
+</odoo>
